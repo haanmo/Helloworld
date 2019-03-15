@@ -10,7 +10,7 @@ CMD ["echo", "Hello World...! from my first docker image"]
 COPY . /haan
 
 RUN javac /haan/Hello.java
-CMD ["java", "/haan/Hello"]
+#CMD ["java", "/haan/Hello"]
 
 
 
